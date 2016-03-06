@@ -1,10 +1,10 @@
 using System;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
-using Service.Contracts;
-using Service;
 using DataAccess.Contracts;
 using DataAccess;
+using CustomService;
+using Service.Contracts;
 
 namespace CustomTestApp.App_Start
 {

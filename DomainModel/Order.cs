@@ -20,5 +20,6 @@ namespace DomainModel
         public string Code { get; private set; }
         public DateTime Date { get; private set; }
         public ICollection<OrderLine> OrderLines { get; set; }
+        public DateTime? CloseDate { get; set; }
     }
 }
